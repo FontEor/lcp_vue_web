@@ -1,0 +1,97 @@
+{
+    "comment": "注释说明-商用数字车队json,字段说明：title:标题,content:内容,productArchitecture:产品架构,programAdvantages:方案优势,operationalResearchOptimization:运筹优化,relatedProducts:相关产品，succesStories:成功案例",
+    "title": "5G智能园区",
+    "content": "通过5G+IoT+AI技术全面提升人、车、安防、生产、运维五大域管理能力，形成高智能、自决策、一体化特点的智能物流园区。",
+    "productArchitecture": {
+        "title": "方案架构",
+        "src": "5g/framework.png"
+    },
+    "programAdvantages": {
+        "title": "方案优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "高效灵活部署",
+                "src": "5g/2-1@2x.png",
+                "url": "http://www.jd.com",
+                "content": "支持多种部署方式，能够对接TMS、WMS等物流管理系统"
+            },
+            {
+                "id": 2,
+                "title": "管理数字化",
+                "src": "5g/2-2@2x.png",
+                "url": "http://www.jd.com",
+                "content": "人、车、货、场、安防、物业全面数字化，让园区管理更安全、更便捷"
+            },
+            {
+                "id": 3,
+                "title": "作业智能化",
+                "src": "5g/2-3@2x.png",
+                "url": "http://www.jd.com",
+                "content": "资源调度与生产作业一体化，让资源调度高效协同，生产运营绿色经济"
+            },
+            {
+                "id": 4,
+                "title": "业务一体化",
+                "src": "5g/2-4@2x.png",
+                "url": "http://www.jd.com",
+                "content": "资源调度与生产作业一体化，让资源调度高效协同，生产运营绿色经济"
+            }
+        ]
+    },
+    "operationalResearchOptimization": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "5G智能园区",
+                "content": "中国移动、中国联通、中国电信；IOT：传感器、边缘计算、车联网；大数据：数据平台、数据展示、数据分析；AI：机器学习、深度学习、计算机视觉（CV）",
+                "src": "5g/banner-3-1@2x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "relatedProducts": {
+        "title": "相关产品",
+        "content": [
+            {
+                "id": 1,
+                "title": "车辆管理",
+                "content": "典型场景： 适用于大型现代化物流园区，车辆日均吞吐达千辆，愿意提高管理水平和园区运营效率。解决方案： 利用高清摄像头感知车辆出入情况，通过数据回传后台进行数据分析，识别车辆信息，包括车牌、车型、司机身份等，通过云端视频信息收集，进行大数据统计分析，实现车辆无感入园、智能场站调度、智能导航导引、数字化月台。"
+            },
+            {
+                "id": 2,
+                "title": "无人安防",
+                "content": "典型场景： 适用于社区、厂区、学校/政府、街道、仓库、办公区、商场、政府/车站。解决方案： 通过5G+IoT+AI技术融合应用，全面提升工业园区、物业、公安等场景下的人员、车辆、安防等场景的巡检效率和准确性，由机器自动巡检，替代传统行业巡检模式，实时监控、及时预警并第一时间通知责任人，缩短处理时长，降低人员疏忽，提升安全系数。"
+            },
+            {
+                "id": 3,
+                "title": "智能物业",
+                "content": "典型场景： 适用于物业、工业设施，例如机房环境检测、机电设备故障监测、水位监测、远程抄表等场景。解决方案： 通过低功耗网络通信技术+IOT+大数据，实现对全域能源信息的收集、管理、分析、建模与优化，达成物业信息采集，设备轻量化、模块化和选择性应用。"
+            }
+        ]
+    },
+    "succesStories": [
+        {
+            "id": 1,
+            "title": "电子围栏",
+            "url": "http://www.jd.com",
+            "src": "icon1@2x.png",
+            "content": "系统原理与常见技术文档"
+        },
+        {
+            "id": 2,
+            "title": "智能地址填写",
+            "url": "http://www.jd.com",
+            "src": "icon2@2x.png",
+            "content": "自助解答开发过程中常见问题"
+        },
+        {
+            "id": 3,
+            "title": "智能分单",
+            "url": "http://www.jd.com",
+            "src": "icon3@2x.png",
+            "content": "为你体验·用心聆听"
+        }
+    ]
+}

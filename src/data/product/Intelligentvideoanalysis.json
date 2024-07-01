@@ -1,0 +1,80 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "智能化视频分析",
+    "content": "基于定制化AI视觉算法模型，围绕规范、效率、安全三大主题，实现对人车货场的智能化监控，实时感知异常事件",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "细分场景聚焦",
+                "src": "Intelligentvideoanalysis/1-1@2x.png",
+                "content": "基于京东物流丰富生产场景打造，对关键环节卡位深耕，并经过内部业务验证"
+            },
+            {
+                "id": 2,
+                "title": "训练数据多",
+                "src": "Intelligentvideoanalysis/1-2@2x.png",
+                "content": "基于海量真实生产数据训练，样本丰富多样，模型健壮"
+            },
+            {
+                "id": 3,
+                "title": "准确率高",
+                "src": "Intelligentvideoanalysis/1-3@2x.png",
+                "content": "严格的模型评估流程和机制，保障交付效果，并持续迭代"
+            },
+            {
+                "id": 4,
+                "title": "部署灵活",
+                "src": "Intelligentvideoanalysis/1-4@2x.png",
+                "content": "支持云部署、边缘部署，私有化部署，有效降低网络传输及推理运算的综合成本"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "园区人员规范管理",
+                "content": "安全帽反光衣穿戴识别、工服着装规范识别、无感知人脸考勤、人群聚集识别、吸烟行为识别、物流暴力操作智能识别",
+                "src": "Intelligentvideoanalysis/banner2-1@1x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "网点标准化管理",
+                "content": "场地整洁度管理、大小件摆放标准检测、员工形象管理、车辆形象管理",
+                "src": "Intelligentvideoanalysis/banner2-2@1x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 2,
+                "title": "安全防损管理",
+                "content": "人员入侵识别、传送带掉件识别、消防通道堵塞识别、人群聚集识别、烟火识别",
+                "src": "Intelligentvideoanalysis/banner2-3@1x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Intelligentvideoanalysis/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "",
+        "content": [
+            {
+                "id": 1,
+                "title": "智能园区管理系统",
+                "content": "基于系列人车货场的智能模型，实现多维度的园区智能化管理"
+            },
+            {
+                "id": 2,
+                "title": "智能网点管理系统",
+                "content": "针对终端营业部场景，实现智能化巡检、及时发现规范、效率、安全问题及隐患"
+            }
+        ]
+    }
+}

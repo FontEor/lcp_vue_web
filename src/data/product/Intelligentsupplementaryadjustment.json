@@ -1,0 +1,62 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "智能补调",
+    "content": "为商家提供智能高效的多场景补货调拨工作台，根据商品的畅销等级、销售预测、公司经营战略等因素，结合历史销量、实际库存、周转以及数据拓展，为商家提供补货调拨决策建议。",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "消灭无效调拨，降低物流成本",
+                "src": "Intelligentsupplementaryadjustment/1-1@2x.png",
+                "content": "基于商家仓网及库存、订单情况，为商家提供自动化合理的补货调拨建议，避免不必要的调拨带来的成本支出。"
+            },
+            {
+                "id": 2,
+                "title": "庞大的数据支撑，专业算法能力",
+                "src": "Intelligentsupplementaryadjustment/1-2@2x.png",
+                "content": "依托京东大数据和算法能力，为商家提供智能化补调系统支持，提升补货调拨精准度，实现多频少量的理想补货模式。"
+            },
+            {
+                "id": 3,
+                "title": "智能高效，精准自动化，简洁易用",
+                "src": "Intelligentsupplementaryadjustment/1-3@2x.png",
+                "content": "基于强大的智能化、自动化的补调系统，助力商家补调更加高效，依托丰富的大数据分析，使得商家补调更为精准，且系统实用，操作简易。"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "智能补货",
+                "content": "助力商家运营进行补货决策，为商家提供智能化、自动化的补货建议，全面提升商家库存管理能力。智能补货产品为商家提供智能高效的多场景补货工作台，可为商家提供精准查询，锁定缺货商品重点关注，呈现多维度的销量预测、历史销量、库存、周转、相关数据展现，为商家提供补货决策参考。",
+                "src": "Intelligentsupplementaryadjustment/banner-14-1@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "智能调拨",
+                "content": "基于商家多仓或多门店管理维度，为商家提供商品最优仓间调拨和退回方案 。根据商品的畅销等级、销售预测、公司经营战略等因素，结合京东仓储布局经验，计算仓与仓之间的调拨或回退建议，并根据这些建议自动生成生产调拨单据，协助仓储管理人员实现调拨和货物的回退，提升运营效率，降低运营成本。",
+                "src": "Intelligentsupplementaryadjustment/banner14-2@2x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Intelligentsupplementaryadjustment/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "",
+        "content": [
+            {
+                "id": 1,
+                "title": "某消费品酒家",
+                "content": "家仓网依赖历史布局，B2C业务占比增长背景下，不合理性凸显，需要依据未来发展战略重新进行仓网规划。通过智能补调系统，为商家提供涵盖线上线下多渠道的补调决策支持。"
+            }
+        ]
+    }
+}

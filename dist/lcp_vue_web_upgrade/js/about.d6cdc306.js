@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunklcp_vue_web_upgrade"]=self["webpackChunklcp_vue_web_upgrade"]||[]).push([[443],{8658:function(e,u,n){n.r(u),n.d(u,{default:function(){return o}});var a=n(3396);const r={class:"about"},t=(0,a._)("h1",null,"This is an about page",-1),c=[t];function s(e,u){return(0,a.wg)(),(0,a.iD)("div",r,c)}var i=n(89);const l={},p=(0,i.Z)(l,[["render",s]]);var o=p}}]);
+//# sourceMappingURL=about.d6cdc306.js.map

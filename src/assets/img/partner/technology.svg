@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="61px" viewBox="0 0 70 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6@4x</title>
+    <defs>
+        <filter x="-20.2%" y="-25.0%" width="144.2%" height="154.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.235294118   0 0 0 0 0.431372549   0 0 0 0 0.941176471  0 0 0 0.237407124 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.589051573" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.12941177" offset="100%"></stop>
+        </linearGradient>
+        <path d="M27.3153967,29.0329029 L6.70073576,29.0399049 C5.75516656,29.040226 4.98519641,28.2699833 4.98551759,27.3240796 L4.99252208,6.70212655 C4.99284337,5.75622287 5.76333694,4.98545694 6.70890614,4.98513577 L27.317305,4.97813587 C28.2628742,4.97781481 29.0328444,5.74805751 29.0325232,6.69396119 L29.0255208,27.30965 C29.0314595,28.2618158 28.2609659,29.0325817 27.3153967,29.0329029 Z" id="path-3"></path>
+        <filter x="-4.2%" y="-4.2%" width="108.3%" height="108.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.29803923 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-6.5%" y="-6.5%" width="112.9%" height="112.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.235294118   0 0 0 0 0.431372549   0 0 0 0 0.941176471  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#3C6EF0" offset="0%"></stop>
+            <stop stop-color="#6E9AFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="合作伙伴" transform="translate(-519.000000, -271.000000)">
+            <g id="编组-6" filter="url(#filter-1)" transform="translate(527.000824, 279.989273)">
+                <g id="路径" transform="translate(17.009020, 17.009020) rotate(-315.000000) translate(-17.009020, -17.009020) ">
+                    <use fill-opacity="0.2" fill="#7DCCFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <path stroke="url(#linearGradient-2)" stroke-width="0.5" d="M27.3173899,5.22813586 C27.7212308,5.22799874 28.0874941,5.39254486 28.352815,5.65795966 C28.618168,5.92340654 28.7826604,6.28984803 28.7825232,6.69387627 L28.7825232,6.69387627 L28.7755257,27.3112092 C28.7780578,27.7171976 28.6153238,28.0845811 28.3511957,28.3507369 C28.0863586,28.6176072 27.7195982,28.7827656 27.3153118,28.7829029 L27.3153118,28.7829029 L6.70065087,28.7899049 C6.29681001,28.7900421 5.93054665,28.6254959 5.66522576,28.3600811 C5.39987281,28.0946342 5.23538039,27.7281928 5.23551757,27.3241645 L5.23551757,27.3241645 L5.24252207,6.70221146 C5.24265933,6.29808964 5.40746445,5.93146668 5.67305407,5.66578317 C5.93861168,5.4001317 6.30505658,5.23527295 6.70899105,5.23513575 L6.70899105,5.23513575 Z" stroke-linejoin="square"></path>
+                </g>
+                <g id="git" filter="url(#filter-5)" transform="translate(13.281563, 3.319407)" fill="url(#linearGradient-6)" fill-rule="nonzero">
+                    <path d="M38.437031,18.7406356 L19.9678787,0.226884208 C19.6651057,-0.0756280695 19.1201143,-0.0756280695 18.7567867,0.226884208 L13.6702005,5.30909048 L18.3934591,10.028282 C18.7567867,9.84677464 19.1806689,9.78627219 19.6045511,9.78627219 C21.3606344,9.78627219 22.6928356,11.1778287 22.6928356,12.8718974 C22.6928356,13.2954146 22.632281,13.7189318 22.4506172,14.0819465 L26.2050022,17.8330988 C26.5683298,17.6515914 26.992212,17.591089 27.4160942,17.591089 C29.1721775,17.591089 30.5043787,18.9826454 30.5043787,20.6767142 C30.5043787,22.4312854 29.1116229,23.7623394 27.4160942,23.7623394 C25.6600109,23.7623394 24.3278097,22.3707829 24.3278097,20.6767142 C24.3278097,20.253197 24.3883643,19.8296798 24.5700281,19.4666651 L20.815643,15.7155128 L20.7550884,15.7155128 L20.7550884,22.8548026 C21.9056258,23.3388222 22.6928356,24.4278664 22.6928356,25.7589205 C22.6928356,27.5134917 21.3000798,28.8445457 19.6045511,28.8445457 C17.8484677,28.8445457 16.5162666,27.4529892 16.5162666,25.7589205 C16.5162666,24.4278664 17.3034764,23.3388222 18.4540137,22.8548026 L18.4540137,15.8365177 C17.3034764,15.3524981 16.5162666,14.2634539 16.5162666,12.9323999 C16.5162666,12.5088827 16.5768212,12.0853655 16.758485,11.7223508 L12.0352263,6.94265678 L0.227079742,18.7406356 C-0.0756932474,19.0431479 -0.0756932474,19.58767 0.227079742,19.9506847 L18.7567867,38.4644361 C19.0595597,38.7669484 19.6045511,38.7669484 19.9678787,38.4644361 L38.4975856,19.9506847 C38.8003586,19.6481724 38.8003586,19.0431479 38.437031,18.7406356 Z" id="路径"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

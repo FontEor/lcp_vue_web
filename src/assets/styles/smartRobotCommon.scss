@@ -1,0 +1,51 @@
+::v-deep .lemon-editor__inner {
+  display: none;
+}
+
+::v-deep .lemon-editor__submit {
+  display: none;
+}
+
+::v-deep .lemon-message__avatar {
+  display: none;
+}
+
+::v-deep .lemon-message__title {
+  font-size: 12px;
+  font-family: PingFang SC;
+  font-weight: normal;
+  color: rgba(134, 141, 159, 1);
+}
+
+::v-deep .lemon-message--reverse .lemon-message__title {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+::v-deep .lemon-message__time {
+  font-size: 12px;
+  font-family: PingFang SC;
+  font-weight: normal;
+  color: rgba(134, 141, 159, 1);
+}
+
+::v-deep .lemon-message--reverse .lemon-message__content {
+  background: rgba(60, 110, 240, 0.1);
+  border-radius: 12px 0 12px 12px;
+  font-size: 14px;
+  font-family: PingFang SC;
+  font-weight: normal;
+  color: rgba(35, 37, 43, 1);
+}
+
+::v-deep .lemon-message--reverse .lemon-message__content:before {
+  content: none; /* 将伪元素内容设置为空 */
+}
+
+::v-deep .lemon-message .lemon-message__content:before {
+  content: none; /* 将伪元素内容设置为空 */
+}
+
+::v-deep .lemon-vessel__left {
+  width: 100%;
+}

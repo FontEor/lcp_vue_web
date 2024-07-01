@@ -1,0 +1,73 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "场地仿真",
+    "content": "通过对物流设施等场地的设计布局、设备投入、人员投入的系统建模，对不同策略下的运营状态进行模拟和评价。",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "实现复杂场景分析",
+                "src": "Sitesimulation/1-1@2x.png",
+                "content": "利用仿真模型对现实场地或园区的复杂运营逻辑进行建模分析，是处理运营策略优化的不二之选。"
+            },
+            {
+                "id": 2,
+                "title": "全程可视",
+                "src": "Sitesimulation/1-2@2x.png",
+                "content": "仿真模型可以再现所有运营环节和运营细节，做到整个生产流程的再现，并开放给用户进行查看，并提供足够丰富的输出数据。"
+            },
+            {
+                "id": 3,
+                "title": "高还原度",
+                "src": "Sitesimulation/1-3@2x.png",
+                "content": "支持用户配置场地布局，做到真实还原场景。"
+            },
+            {
+                "id": 4,
+                "title": "多种数据接入",
+                "src": "Sitesimulation/1-4@2x.png",
+                "content": "可以支持历史数据、预测数据、实时数据接入仿真模型。"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "场地/园区设计方案评估",
+                "content": "根据特定场地或园区的设计方案完成仿真建模，对场地土建、设备投入、动线设计等环节进行仿真模拟，对整体方案的处理能力、效率、成本、拥堵、安防等核心功能进行评估，在场地或园区正式进行建设或投产前对运营状态进行预判，可以大幅降低试错成本、科学合理评估多种方案的优劣。",
+                "src": "Sitesimulation/banner2-1@1x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "场地生产流程优化",
+                "content": "对于场地内的生产流程进行仿真建模，对生产流程、人员排班、资源计划等项目进行仿真优化，也可以对设备升级、流程升级等方案进行仿真评估，在不停工、不停产的情况下对场地生产的效率提升、成本降低进行决策。",
+                "src": "Sitesimulation/banner2-2@1x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Sitesimulation/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "",
+        "content": [
+            {
+                "id": 1,
+                "title": "智能园区管理系统",
+                "content": "基于系列人车货场的智能模型，实现多维度的园区智能化管理"
+            },
+            {
+                "id": 2,
+                "title": "智能网点管理系统",
+                "content": "针对终端营业部场景，实现智能化巡检、及时发现规范、效率、安全问题及隐患"
+            }
+        ]
+    }
+}

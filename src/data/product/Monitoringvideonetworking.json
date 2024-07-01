@@ -1,0 +1,83 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "监控视频联网",
+    "content": "实现跨区域多级监控视频联网上云，兼容内部管理和政府监管要求，丰富的多媒体处理能力，多终端分发播放",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "充分利旧",
+                "src": "Monitoringvideonetworking/1-1@2x.png",
+                "content": "多厂商多协议兼（GB/T28181、RTSP、私有协议），无需大面积改造升级，存量设备利用率高"
+            },
+            {
+                "id": 2,
+                "title": "集团化管理",
+                "src": "Monitoringvideonetworking/1-2@2x.png",
+                "content": "全国一张网，灵活划分区域组织结构，丰富的权限分组，设备操作权限和数据权限安全隔离"
+            },
+            {
+                "id": 3,
+                "title": "云边融合",
+                "src": "Monitoringvideonetworking/1-3@2x.png",
+                "content": "本地编解码和视频云直播、云点播接力，本地存储和云存储融合，实现低成本、高效率的直播点播检索"
+            },
+            {
+                "id": 4,
+                "title": "数据结构化",
+                "src": "Monitoringvideonetworking/1-4@2x.png",
+                "content": "支持通过和业务系统整合，建立视频与生产事件的跨境头时空映射，实现视频跨区回溯，精准存证，快速检索"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "远程实时巡检",
+                "content": "实现多生产场地集中化远程管理，提升巡检效率，降低差旅成本。对接AI服务，实现机器自动巡检。",
+                "src": "Monitoringvideonetworking/banner2-1@1x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "全流程视频回溯",
+                "content": "基于订单完整生命周期，自动截取主要生产节点现场视频资料，实现全流程可视、可回溯。提升管理效率、赢得客户信任。",
+                "src": "Monitoringvideonetworking/banner2-2@1x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Monitoringvideonetworking/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "为计算、存储、网络、大数据、智能多媒体、人工智能、物联网等云产品提供全面的技术服务",
+        "content": [
+            {
+                "id": 1,
+                "title": "跨区多级组网",
+                "content": "摄像机、录像机联网、视频平台级联，多层级兼容组网，全链路设备状态监控"
+            },
+            {
+                "id": 2,
+                "title": "流媒体处理",
+                "content": "远程拉流、推流分发（RTMP、RTSP、HLS、FLV）、推流转录、云端录像、本地录像远程提取、抽帧快照"
+            },
+            {
+                "id": 3,
+                "title": "多终端分发",
+                "content": "支持PC、移动、大屏多端分发播放，支持CDN加速"
+            },
+            {
+                "id": 4,
+                "title": "视频数据管理",
+                "content": "视频语义化索引及存储，快速检索。云存储和本地存储无缝融合"
+            }
+        ]
+    }
+}

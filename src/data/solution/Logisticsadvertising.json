@@ -1,0 +1,85 @@
+{
+    "comment": "注释说明-商用数字车队json,字段说明：title:标题,content:内容,productArchitecture:产品架构,programAdvantages:方案优势,operationalResearchOptimization:运筹优化,relatedProducts:相关产品，succesStories:成功案例",
+    "title": "物流广告",
+    "content": "物流广告是针对仓储体系、配送体系、区域分公司以及异业合作等资源而开发的广告产品",
+    "productArchitecture": {
+        "title": "方案架构",
+        "src": "Logisticsadvertising/framework.png"
+    },
+    "programAdvantages": {
+        "title": "方案优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "精准高效的客群筛选方案",
+                "src": "Logisticsadvertising/2-1@2x.png",
+                "url": "http://www.jd.com",
+                "content": "标签丰富，众多物流及零售标签，包含海量快递及零售订单行为数据"
+            },
+            {
+                "id": 2,
+                "title": "灵活的客群分析",
+                "src": "Logisticsadvertising/2-2@2x.png",
+                "url": "http://www.jd.com",
+                "content": "多种标签画像分析"
+            },
+            {
+                "id": 3,
+                "title": "丰富的营销渠道",
+                "src": "Logisticsadvertising/2-3@2x.png",
+                "url": "http://www.jd.com",
+                "content": "物睿可以对接京东内部渠道系统，实现客群的触达"
+            },
+            {
+                "id": 4,
+                "title": "产品方式多样化",
+                "src": "2-1@2x.png",
+                "url": "http://www.jd.com",
+                "content": "包装耗才、自提柜柜体广告、线上推广，地面推广"
+            }
+        ]
+    },
+    "operationalResearchOptimization": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "物流广告场景",
+                "content": "通过客群筛选及渠道对接，实现物流广告的精准投放",
+                "src": "Logisticsadvertising/banner-3-1@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "分析报告",
+                "content": "面向政府、企业进行行业、用户等洞察分析报告",
+                "src": "Logisticsadvertising/banner-3-2@2x.jpg",
+                "url": ""
+            }
+        ]
+    },
+    "relatedProducts": {
+        "title": "相关产品",
+        "content": [
+            {
+                "id": 1,
+                "title": "物睿平台",
+                "content": "京东物流自主研发的精准营销大数据产品。基于京东物流用户标签库及业务数据，融合零售数据中台标签及数据，提供客群精准挖掘、客群画像洞察、排行榜、三方DMP对接，下游营销渠道对接等功能，面向区域、广告、快递、服务+等物流业务部门，提供营销决策、用户洞察、经营决策、行研报告、精准营销等数据服务。"
+            },
+            {
+                "id": 2,
+                "title": "物流标签库",
+                "content": "为了更好的服务于内部客户运营及精准营销，提升客户体验，同时进一步拓展物流广告生态，推动数据价值变现，通过融合分析人、货、场海量交互数据，对各类业务实体各类特征进行标签化，打造物流标签中心。"
+            }
+        ]
+    },
+    "succesStories": [
+        {
+            "id": 1,
+            "title": "",
+            "url": "",
+            "src": "",
+            "content": ""
+        }
+    ]
+}

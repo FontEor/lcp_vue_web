@@ -1,0 +1,73 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "网络仿真",
+    "content": "针对整体物流网络搭建完整的仿真模型，通过模型计算评估各种决策方案对整体网络运行的影响，为业务决策提供指导建议。",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "",
+                "src": "Networksimulation/1-1@2x.png",
+                "content": "支持对于多种网络类型、不同业务场景的仿真模型搭建，用户可根据自身需求自由选择适合的仿真模型"
+            },
+            {
+                "id": 2,
+                "title": "",
+                "src": "Networksimulation/1-2@2x.png",
+                "content": "构建了物流行业完整的物流网络和线路规划仿真模型，支持对于大规模物流网络的快速仿真计算"
+            },
+            {
+                "id": 3,
+                "title": "",
+                "src": "Networksimulation/1-3@2x.png",
+                "content": "强大的参数配置功能支持多人工作组协同进行仿真实验和方案制定，灵活高效对模型参数进行可视化配置"
+            },
+            {
+                "id": 4,
+                "title": "",
+                "src": "Networksimulation/1-4@2x.png",
+                "content": "完善的仿真结果查看方案支持对仿真结果指标的可视化展示、动态演示及个性化配置。"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "物流网络方案评估",
+                "content": "根据网络预测货量数据和网络规划方案，利用骨干网络仿真模型计算评估整体网络中各分拣中心和线路的运行情况，指导分拣中心资源安排和干支线路开通规划，提升运输时效，降低网络成本。",
+                "src": "Networksimulation/banner2-1@1x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "物流网络成本测算",
+                "content": "根据不同种类物流产品需求，利用网络仿真模型，结合产品时效、网络设计、运力规划、节点能力等，评估测算相应的网络结构成本。",
+                "src": "Networksimulation/banner2-2@1x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Networksimulation/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "为计算、存储、网络、大数据、智能多媒体、人工智能、物联网等云产品提供全面的技术服务",
+        "content": [
+            {
+                "id": 1,
+                "title": "",
+                "content": "可视化模型参数配置界面支持创建多人工作组协同配置仿真模型参数。"
+            },
+            {
+                "id": 2,
+                "title": "",
+                "content": "模型动态演示功能支持对网络整体运行情况进行可视化地图查看，并支持对节点和线路维度的过程细节动态查看。"
+            }
+        ]
+    }
+}

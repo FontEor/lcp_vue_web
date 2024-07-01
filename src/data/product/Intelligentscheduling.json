@@ -1,0 +1,73 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "智能调度",
+    "content": "支持成本最低、车数最少、行驶里程最短等多种优化目标要求下，对揽配的车辆资源安排、线路组织、拜访顺序进行快速调度组织；可通过导入数据表方式进行测算，并在网页上进行可视化结果展示。",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "多场景覆盖",
+                "src": "Intelligentscheduling/1-1@2x.png",
+                "content": "支持用户灵活选择多种优化目标和多项参数的组合，以支持不同场景下的调度优化。"
+            },
+            {
+                "id": 2,
+                "title": "灵活部署",
+                "src": "Intelligentscheduling/1-2@2x.png",
+                "content": "产品支持多种部署方式，可以根据具体应用场景选择不同的交互方式。"
+            },
+            {
+                "id": 3,
+                "title": "结果可视化",
+                "src": "Intelligentscheduling/1-3@2x.png",
+                "content": "调度结果辅以可视化展示，可以对调度结果以及优化效果进行直观分析，增强落地性。"
+            },
+            {
+                "id": 4,
+                "title": "个性化定制方案",
+                "src": "Intelligentscheduling/1-4@2x.png",
+                "content": "对于标准产品覆盖不到的场景，可以根据客户特别的运力结算方式等要求进行个性化算法方案定制。"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "门店配送",
+                "content": "在线下门店O2O场景下，对各个门店配送履约的任务进行智能分单以及配送顺序优化，可以在保障履约质量的前提下优化派送员的派送顺序，提升派送员的工作效率，也提升客户的满意度。",
+                "src": "Intelligentscheduling/banner-2-1@1x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "城市配送车辆调度",
+                "content": "在一定范围内对车辆在全程的揽收和派送进行优化，从车辆数量、串点顺序、装载率等方面利用算法推荐更优方案，降低整体运营成本，提升车辆装载率、降低总体行驶距离，可以使车队更高效地完成所有任务。",
+                "src": "Intelligentscheduling/banner2-2@1x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Intelligentscheduling/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "为计算、存储、网络、大数据、智能多媒体、人工智能、物联网等云产品提供全面的技术服务",
+        "content": [
+            {
+                "id": 1,
+                "title": "订单分组",
+                "content": "根据整体运营成本最低的目标，将订单进行分组，可以提升车辆满载率并保障服务质量。"
+            },
+            {
+                "id": 2,
+                "title": "车辆调度",
+                "content": "配合TMS可以实时对车队、车辆进行调度，精确给出各车辆的履约任务分配结果。"
+            }
+        ]
+    }
+}

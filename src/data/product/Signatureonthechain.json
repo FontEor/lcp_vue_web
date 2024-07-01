@@ -1,0 +1,66 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "链上签",
+    "content": "基于电子签名和区块链技术，解决供应链在纸质单据问题、运营结算等方面协同成本高、效率低的问题，帮助供应链企业实现三流合一。",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "签约线上化",
+                "src": "Signatureonthechain/1-1@2x.png",
+                "content": "供应链各阶段信息实时加密签名登记上链，辅以第三方签名佐证，不可抵赖，无法篡改"
+            },
+            {
+                "id": 2,
+                "title": "运营智能化",
+                "src": "Signatureonthechain/1-2@2x.png",
+                "content": "及时处理运营过程中的异常，实现三流合一，多方共有的清算数据，无需运营对账，电子单据自动核验，降本增效"
+            },
+            {
+                "id": 3,
+                "title": "监管自动化",
+                "src": "Signatureonthechain/1-3@2x.png",
+                "content": "通过智能合约，准时按照税务、交通的监管要求，将数据自动报送至监管机关的数据系统4.普惠金融"
+            },
+            {
+                "id": 4,
+                "title": "普惠金融",
+                "src": "Signatureonthechain/1-4@2x.png",
+                "content": "以核心企业的应付账款为依托，以各参与方间的真实贸易为背景，将核心企业的信用有效传递，使中小微企业获得平等高效的金融服务"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "典型场景",
+                "content": "京东物流利用区块链和电子签名技术打造“链上签”产品，解决传统纸质单据签收不及时、易丢失、易篡改，管理成本高的问题，同时利用数字签名技术解决传统纸质单据不能处理异常的问题，物流配送过程中发现异常能够及时修正，并实时将修改的数据上链，双方运营结算人员可以及时获取准确的数据，同时利用京东物流供应链优势、背靠已有的物流网络和技术打造基于区块链的可信单据签收平台，实现单据流与信息流合一链、交叉验证、审计监控，打造行业产品追溯体系，满足消费者因信而选的心理诉求。通过立体化可信溯源，助力农产品销售上行，打造优质地方农特品牌。从生产端管控到可信溯源到优质果品，帮助地方",
+                "src": "Signatureonthechain/banner-2-1@1x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Signatureonthechain/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "",
+        "content": [
+            {
+                "id": 1,
+                "title": "快运对账平台",
+                "content": "解决核心企业和承运商之间的结算需求，物流承运过程一般需要经过下单、询价、承运、签收等诸多环节"
+            },
+            {
+                "id": 2,
+                "title": "电子签单返还",
+                "content": "结合区块链智能合约技术和电子签名技术将需要签单返还单据无纸化替代传统的纸质签单返还"
+            }
+        ]
+    }
+}

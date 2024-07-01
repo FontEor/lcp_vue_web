@@ -1,0 +1,66 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "京源链",
+    "content": "京源链通过农业生产端管控和区块链技术，保护原产地的优质农产品，让消费者放心购买，让农户精心生产，让政府安心监管。",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "认证管理",
+                "src": "Jingyuanchain/1-1@2x.png",
+                "content": "保护区域公共品牌或农业企业品牌只有认证的农户和地块才能使用"
+            },
+            {
+                "id": 2,
+                "title": "过程管控",
+                "src": "Jingyuanchain/1-2@2x.png",
+                "content": "通过种植计划管控全过程，对种植标准、预估产量进行监控"
+            },
+            {
+                "id": 3,
+                "title": "溯源服务",
+                "src": "Jingyuanchain/1-3@2x.png",
+                "content": "对农产品全生命周期数据上链、交叉验证、审计监控，打造农业行业可信的产品追溯体系"
+            },
+            {
+                "id": 4,
+                "title": "品牌推广",
+                "src": "Jingyuanchain/1-4@2x.png",
+                "content": "助力农产品销售上行，满足消费者因信而选的心理诉求，实现产品增值及品牌利益最大化"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "典型场景",
+                "content": "“京源链”从源头认证农户和地块，记录种植管控全过程，结合物联网传感器及智能终端采集数据，对农产品的种植过程、生产加工、物流配送、商品交易等全生命周期进行数据上链、交叉验证、审计监控，打造行业产品追溯体系，满足消费者因信而选的心理诉求。通过立体化可信溯源，助力农产品销售上行，打造优质地方农特品牌。从生产端管控到可信溯源到优质果品，帮助地方政府打造优质的农特产品品牌，最终实现产品增值及品牌利益最大化。",
+                "src": "Jingyuanchain/banner-2-1@1x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Jingyuanchain/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "",
+        "content": [
+            {
+                "id": 1,
+                "title": "商品物流追踪",
+                "content": "基于区块链技术，结合大数据、物联网、GIS图等可信组件，构建商品物流追踪"
+            },
+            {
+                "id": 2,
+                "title": "科技互信机制",
+                "content": "通过与联盟链成员共同维护安全透明的追溯信息，建立科技互信机制，做的可信物流追踪服务"
+            }
+        ]
+    }
+}

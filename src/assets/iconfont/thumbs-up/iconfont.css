@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4065021 */
+  src: url("iconfont.woff2?t=1683885634484") format("woff2"),
+    url("iconfont.woff?t=1683885634484") format("woff"),
+    url("iconfont.ttf?t=1683885634484") format("truetype");
+}
+
+[class^="icon-thumbs-up"],
+[class*="icon-thumbs-up"] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-thumbs-up:before {
+  content: "\e841";
+}

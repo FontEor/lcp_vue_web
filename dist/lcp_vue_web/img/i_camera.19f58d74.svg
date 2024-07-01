@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="84px" viewBox="0 0 104 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 14@4x</title>
+    <defs>
+        <filter x="-14.5%" y="-19.0%" width="132.5%" height="142.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.235294118   0 0 0 0 0.431372549   0 0 0 0 0.941176471  0 0 0 0.319574956 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.589051573" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.12941177" offset="100%"></stop>
+        </linearGradient>
+        <path d="M50.5959162,2.99437235 L40.8571378,10.9317673 L40.8571378,10.9317673 L40.8571378,3.70000203 C40.8510938,1.65907414 39.1917036,0.0060471872 37.1428737,0 L3.71428743,0 C1.6654575,0.00603227158 0.00605319076,1.65905101 0,3.69999982 L0,33.2999983 C0.00604378393,35.3409259 1.66543422,36.9939528 3.71426415,37 L37.1428504,37 C39.1916805,36.9939677 40.8510848,35.340949 40.8571379,33.3000002 L40.8571379,26.0682349 L50.5959162,34.0056299 C50.9642859,34.3058622 51.506295,34.2506259 51.8065273,33.8822562 C51.9316646,33.728719 52,33.5367106 52,33.3386374 L52,3.66136477 C52,3.18614301 51.6147566,2.80089965 51.1395349,2.80089965 C50.9414617,2.80089965 50.7494533,2.86923502 50.5959162,2.99437235 Z" id="path-3"></path>
+        <filter x="-3.8%" y="-5.4%" width="107.7%" height="110.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.29803923 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-6.3%" y="-8.9%" width="112.7%" height="117.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.235294118   0 0 0 0 0.431372549   0 0 0 0 0.941176471  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#3C6EF0" offset="0%"></stop>
+            <stop stop-color="#6E9AFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页设计稿-无顶图" transform="translate(-112.000000, -2177.000000)">
+            <g id="编组-14" filter="url(#filter-1)" transform="translate(121.000000, 2186.000000)">
+                <g id="形状">
+                    <use fill-opacity="0.2" fill="#7DCCFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <path stroke="url(#linearGradient-2)" stroke-width="0.568216399" d="M37.1420352,0.284106962 C38.0884478,0.286900329 38.9449624,0.670004533 39.5655404,1.28819956 C40.1857243,1.90600213 40.5702406,2.75862825 40.5730296,3.70000203 L40.5730296,3.70000203 L40.5730296,11.5298426 L50.7754081,3.21459977 L51.7158918,33.3386374 L40.5730296,25.4701595 L40.573031,33.2991576 C40.5702365,34.2413815 40.1857159,35.0940101 39.5655288,35.7118116 C38.9449465,36.3300067 38.0884277,36.7131065 37.1428504,36.7158918 L37.1428504,36.7158918 L3.7151027,36.715893 C2.76869009,36.7130997 1.91217534,36.3299955 1.29159737,35.7118005 C0.671413402,35.093998 0.286897128,34.2413719 0.284108199,33.2999983 L0.284108199,33.2999983 L0.28410695,3.70084244 C0.286901465,2.75861848 0.671422013,1.9059899 1.29160917,1.28818839 C1.91219148,0.669993253 2.76871026,0.286893448 3.71428743,0.284108199 L3.71428743,0.284108199 Z" stroke-linejoin="square"></path>
+                </g>
+                <g id="开始监控切换" filter="url(#filter-5)" transform="translate(20.000000, 18.000000)" fill="url(#linearGradient-6)" fill-rule="nonzero">
+                    <path d="M61.2851026,3.65309222 L49.5,13.2953927 L49.5,13.2953927 L49.5,4.5 C49.4926714,2.01779287 47.4822563,0.00735468713 45.0000201,0 L4.5,0 C2.01776582,0.00733654652 0.00733367342,2.01776474 0,4.5 L0,40.5 C0.00732227669,42.9822071 2.01773761,44.9926453 4.49997387,45 L45,45 C47.4822283,44.9926634 49.4926604,42.9822353 49.5,40.5 L49.5,31.70461 L61.2851026,41.3469105 C61.7339207,41.7141231 62.3954444,41.6479689 62.7626571,41.1991508 C62.9161429,41.0115559 63,40.7766368 63,40.5342534 L63,4.46574929 C63,3.8858503 62.529899,3.41574929 61.95,3.41574929 C61.7076166,3.41574929 61.4726975,3.4996064 61.2851026,3.65309222 Z M16.6499779,34.1455023 L16.6499779,10.8545021 C16.6499779,10.2746032 17.1200789,9.80450214 17.6999779,9.80450214 C17.890284,9.80450214 18.0770122,9.85622286 18.2401984,9.95413457 L37.6493653,21.5996347 C38.1466245,21.8979902 38.3078679,22.5429635 38.0095123,23.0402228 C37.92084,23.1880099 37.7971523,23.3116976 37.6493653,23.4003698 L18.2401984,35.0458699 C17.7429391,35.3442255 17.0979659,35.1829822 16.7996103,34.6857229 C16.7016986,34.5225367 16.6499779,34.3358085 16.6499779,34.1455023 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,62 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "商品布局 ",
+    "content": "基于大数据结合商家特点，有效利用全国物流网络，对商家库房进行合理选址，指导商家在各地进行商品及库存精准布局，帮助商家库存部署到距离客户最近的地方，实现降低成本的同时提高对终端客户服务水平。",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "降低商家仓储配成本",
+                "src": "Commoditylayout/1-1@2x.png",
+                "content": "基于京东大数据分析，进行合理的商品布局，降低库存水平从而减少仓储成本，平衡由NDC到RDC以及RDC到客户的运输成本。"
+            },
+            {
+                "id": 2,
+                "title": "加快对客户的响应时效",
+                "src": "Commoditylayout/1-2@2x.png",
+                "content": "基于最优的商品布局方案，在减少RDC，降低仓储成本的前提下，仍能保证大部分订单的履约时效性。"
+            },
+            {
+                "id": 3,
+                "title": "提高对库房的利用效率",
+                "src": "Commoditylayout/1-3@2x.png",
+                "content": "基于商品及订单等数据综合分析，结合区域行业特征，对商家仓间商品布局，库内商品配比进行合理优化，提升库房利用率。"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "商品库房选址推荐",
+                "content": "基于行业数据分析，结合商家特点，提供商品存储的库房位置及数量的不布局方案。商品布局货品推荐：基于商家商品特点，结合实际订单情况，提供布局的商品及商品深度的推荐方案。",
+                "src": "Commoditylayout/banner-11-1@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "成本/时效/拆单率分析",
+                "content": "基于不同的商品布局方案，结合行业及商家数据，提供各成本项的分析；结合仓网布局、仓间调拨及仓到终端等实际数据，提供各线路时效及拆单率的分析。",
+                "src": "Commoditylayout/banner-11-2@2x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Commoditylayout/framework.png"
+    },
+    "productFunction": {
+        "title": "合作案例",
+        "tip": "",
+        "content":[
+            {
+                "id":1,
+                "title": "案例简介",
+                "content": "商家由于入仓选择和商品库存分布不合理，存在物流成本投入粗放、分仓效果不明显、库存波动大、跨区调拨/发货频繁大大影响时效和运费。通过商品布局诊断优化，调整仓库所在地及配送覆盖范围，并对库存品类进行重新规划。"
+            }
+        ]
+    }
+}

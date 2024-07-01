@@ -1,0 +1,38 @@
+// 主色、导航和侧边栏颜色
+$mainColor:#3c6ef0;
+$navHoverColor: #3964d2;
+$mainTextColor: #fff;
+
+$menuColor:$mainColor;
+$menuColorDark:mix(#000, $menuColor, 85%);//#212431 mix(#000, $menuColor, 85%)
+$menuTitle:#b5b5b5;
+$menuText:#666666;
+$menuHover:mix(#fff, $menuColor, 90%);
+$menuActive:$menuColor;
+$subMenuBg:#ffffff;
+$navMenuHover: mix(#000, $menuColor, 15%);
+$sideBarWidth: 200px;
+$sideBarMiniWidth: 54px;
+$logoWidth: 85px;
+$logoHeight: 20px;
+$navHeight: 60px;
+
+:export {
+  mainColor:$mainColor;
+  navHoverColor: $navHoverColor;
+  mainTextColor: $mainTextColor;
+  menuColor: $menuColor;
+  menuColorDark: $menuColorDark;
+  menuTitle: $menuTitle;
+  menuText: $menuText;
+  menuHover: $menuHover;
+  menuActive: $menuActive;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  navMenuHover: $navMenuHover;
+  sideBarWidth: $sideBarWidth;
+  sideBarMiniWidth: $sideBarMiniWidth;
+  logoWidth: $logoWidth;
+  logoHeight: $logoHeight;
+  navHeight: $navHeight
+}

@@ -1,0 +1,85 @@
+{
+    "comment": "注释说明-商用数字车队json,字段说明：title:标题,content:内容,productArchitecture:产品架构,programAdvantages:方案优势,operationalResearchOptimization:运筹优化,relatedProducts:相关产品，succesStories:成功案例",
+    "title": "数字农场",
+    "content": "京东农场大数据，基于京东X的数据中台，结合京东数科的数据后台，在实现低成本的情况下，实现农业数据快速、安全、开放。",
+    "productArchitecture": {
+        "title": "方案架构",
+        "src": "Smartfarm/framework.png"
+    },
+    "programAdvantages": {
+        "title": "方案优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "科学种植",
+                "src": "Smartfarm/2-1@2x.png",
+                "url": "http://www.jd.com",
+                "content": "多种IOT设备结合，移动端作业设备，实现种植全部数字化"
+            },
+            {
+                "id": 2,
+                "title": "全程追溯",
+                "src": "Smartfarm/2-2@2x.png",
+                "url": "http://www.jd.com",
+                "content": "打造全链条的数据强管控"
+            },
+            {
+                "id": 3,
+                "title": "品牌上行",
+                "src": "Smartfarm/2-3@2x.png",
+                "url": "http://www.jd.com",
+                "content": "线上线下多平台数据无缝对接"
+            },
+            {
+                "id": 4,
+                "title": "品牌规模效应上行",
+                "src": "2-1@2x.png",
+                "url": "http://www.jd.com",
+                "content": "能够低成本服务架设，并且能够操作简单。"
+            }
+        ]
+    },
+    "operationalResearchOptimization": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "农事分析",
+                "content": "实现对水源，土壤，气象，病虫害等自然环境的监控",
+                "src": "Smartfarm/banner-3-1@1x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "数字化监控大屏",
+                "content": "通过这些技术和设备，实现精准施肥施药以及科学种植管理",
+                "src": "Smartfarm/banner-3-2@1x.jpg",
+                "url": ""
+            }
+        ]
+    },
+    "relatedProducts": {
+        "title": "相关产品",
+        "content": [
+            {
+                "id": 1,
+                "title": "农业智慧中枢",
+                "content": "3D可视化的管控作业，利用数据智能化实现农业决策，实现农事行为的自动化"
+            },
+            {
+                "id": 2,
+                "title": "一体化服务平台",
+                "content": "实行农产品上行，农业金融，农业保险的有价值的农业服务平台。"
+            }
+        ]
+    },
+    "succesStories": [
+        {
+            "id": 1,
+            "title": "京东农场开放平台",
+            "url": "",
+            "src": "",
+            "content": "实现可对接的开放式平台，实现定制化追溯平台。"
+        }
+    ]
+}

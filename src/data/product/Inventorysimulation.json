@@ -1,0 +1,83 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "库存仿真",
+    "content": "利用科学的算法模型模拟多种库存运营场景，帮助商家用最低成本快速评估不同决策带来的预计效果；支持根据商家指定约束条件，对比分析并输出最优补货策略，实现系统制定合理的库存策略。",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "一键模拟",
+                "src": "Inventorysimulation/1-1@2x.png",
+                "content": "极简操作，想你所想。支持一键生成仿真任务，所有输入项均设置高频使用的默认条件。"
+            },
+            {
+                "id": 2,
+                "title": "智能决策",
+                "src": "Inventorysimulation/1-2@2x.png",
+                "content": "算法&建模、推演&运筹。机器学习及随机事件仿真技术，推演模拟，运筹帷幄，决胜千里之外。"
+            },
+            {
+                "id": 3,
+                "title": "极速推荐",
+                "src": "Inventorysimulation/1-3@2x.png",
+                "content": "批量模拟，分秒响应。海量商品、超长周期进销存模拟，秒级计算分钟级返回推荐参数。"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "订单寻源",
+                "content": "本地仓缺货时，可按指定发货优先级，依次向其他仓库要货代发，以此提高订单满足率。",
+                "src": "Inventorysimulation/banner-12-1@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "多层级仓网",
+                "content": "基于数据分析，利用系统模拟上游仓对下游仓分配策略。",
+                "src": "Inventorysimulation/banner-12-2@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 2,
+                "title": "财务指标模拟",
+                "content": "支持多指标组合制定补货策略的目标：收入最高、总成本最低、利润最大化等。",
+                "src": "Inventorysimulation/banner-12-3@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 3,
+                "title": "库存模型推荐",
+                "content": "结合行业大数据，结合商家实际数据，自动推荐库存模型，获得更优绩效。",
+                "src": "Inventorysimulation/banner-12-4@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 4,
+                "title": "清滞策略推荐",
+                "content": "模拟降价清仓、过期报废、调拨等清滞策略背后的成本，寻求损失最低方案。",
+                "src": "Inventorysimulation/banner-12-5@2x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Inventorysimulation/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "",
+        "content": [
+            {
+                "id": 1,
+                "title": "某线下商家",
+                "content": "某服饰行业商家与京东合作仓配及补调系统，同时在现有仓的基础上再增加总仓模式，各仓品类存放SKU也与现状会有调整。商家希望在合作之前先能大致看下未来能达到什么样的库存指标情况，同时对现有的运营情况做个评估，并给出一版优化的补货策略。仿真系统根据商家历史数据，通过多次调参，对比各方案，选取服务水平提升最为明显且周转有大幅改善的一套方案输出给客户。"
+            }
+        ]
+    }
+}

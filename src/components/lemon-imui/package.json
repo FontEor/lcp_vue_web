@@ -1,0 +1,74 @@
+{
+  "_from": "lemon-imui",
+  "_id": "lemon-imui@1.7.7",
+  "_inBundle": false,
+  "_integrity": "sha1-Mmvnrzq0WFZjYsqiu3c237cBFVU=",
+  "_location": "/lemon-imui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "lemon-imui",
+    "name": "lemon-imui",
+    "escapedName": "lemon-imui",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.m.jd.com/lemon-imui/download/lemon-imui-1.7.7.tgz",
+  "_shasum": "326be7af3ab458566362caa2bb7736dfb7011555",
+  "_spec": "lemon-imui",
+  "_where": "/Users/liubo453/Desktop/lcp_vue_web",
+  "author": {
+    "name": "fanjun"
+  },
+  "bugs": {
+    "url": "https://github.com/fanjyy/lemon-imui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "基于 VUE2.0 的 IM 聊天组件",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "homepage": "http://june000.gitee.io/lemon-im/",
+  "keywords": [
+    "vue",
+    "im",
+    "chat",
+    "vueim",
+    "vuechat",
+    "webim",
+    "webchat"
+  ],
+  "license": "MIT",
+  "main": "dist/index.umd.min.js",
+  "name": "lemon-imui",
+  "peerDependencies": {
+    "vue": "^2.6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanjyy/lemon-imui.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name index packages/index.js",
+    "build-examples": "vue-cli-service build --dest examples/dist examples/main.js",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "1.7.7"
+}

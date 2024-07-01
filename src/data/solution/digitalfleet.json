@@ -1,0 +1,88 @@
+{
+    "comment": "注释说明-商用数字车队json,字段说明：title:标题,content:内容,productArchitecture:产品架构,programAdvantages:方案优势,operationalResearchOptimization:运筹优化,relatedProducts:相关产品，succesStories:成功案例",
+    "title": "商用数字车队",
+    "content": "立足成本管控、效率提升、安全保障三大需求，结合AIOT、智能硬件和边缘计算能力，提供软件硬件一体化的商用车车联网平台。",
+    "productArchitecture": {
+        "title": "方案架构",
+        "src": "digitalfleet/framework.png"
+    },
+    "programAdvantages": {
+        "title": "方案优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "丰富的智能硬件",
+                "src": "digitalfleet/2-1@2x.png",
+                "url": "http://www.jd.com",
+                "content": "丰富的后装硬件选择，包括部标终端、DVR视频机、主动安全智能终端、智能量方设备、电子锁等，在边缘安全预警视觉算法、驾驶行为车端数据分析等技术的加持下，可实现多元化接入，多种数据交换格式的支持。"
+            },
+            {
+                "id": 2,
+                "title": "无人化全程跟踪",
+                "src": "digitalfleet/2-2@2x.png",
+                "url": "http://www.jd.com",
+                "content": "系统通过电子围栏或视觉设备自动识别订单环节，在路由信息的支持下，可实现无人值守的主动时效异常预警，并通过即时消息通知到人。同时系统可主动监控车辆异常情况，预防事故发生。"
+            },
+            {
+                "id": 3,
+                "title": "系统智能辅助",
+                "src": "digitalfleet/2-3@2x.png",
+                "url": "http://www.jd.com",
+                "content": "系统通过运力信息、货量信息、流向信息自动给出配载建议，根据车辆历史轨迹数据自动给出路径规划建议，结合路况预测给出路径规划建议。系统支持运营看板和大数据可视化。"
+            },
+            {
+                "id": 4,
+                "title": "业务需求定制",
+                "src": "digitalfleet/2-4@2x.png",
+                "url": "http://www.jd.com",
+                "content": "基于数据应用、规模大小和开发部署需要，行业用户或第三方系统集成商可以按实际业务场景需求、开发出定制化的车联网服务和业务应用，并针对不同客户的需求，定制化实施、培训、售后方案。"
+            }
+        ]
+    },
+    "operationalResearchOptimization": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "快递快运物流智能解决方案",
+                "content": "典型场景： 快递快运行业由于对时效要求高、夜间行驶较多、成本控制严格，在防疲劳驾驶等安全管理，油耗管理等需求较高。方案采用复合式定位手段，增强车辆定位精度和实时性。采用定位+视觉的双重监控，提升有效的监控投入。使用RFID等低功耗短距通信手段，配合车载主机进行货物追踪。通过OBD获取油耗胎压数据，填补成本和安全管理盲区。",
+                "src": "digitalfleet/banner-3-1@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "冷链物流智能解决方案",
+                "content": "典型场景： 系统数据由温度、湿度、感光、气压等传感器采集后，经由物联网网关上传平台服务器，异常情况下可以通过短信、语音、邮件、声光电报警器等等方式报警，提醒全流程的相关人员进行处理。用户只需通过PDA、手机APP、电脑登录即可设置、查询或下载相关温度和位置数据。",
+                "src": "digitalfleet/banner-3-2@2x.jpg",
+                "url": ""
+            },
+            {
+                "id": 2,
+                "title": "危化品物流安全解决方案",
+                "content": "典型场景： 方案通过视频监控、GPS及业务系统的集成应用提高了危化品运输的效益，加快了相关信息数据的传输速度，使后台监控中心能够及时的了解掌握车辆运输情况。系统可以在部门间建立信息共享机制，搭建数据交换通道，实现信息共享，实现联合监控。",
+                "src": "digitalfleet/banner-3-3@2x.jpg",
+                "url": ""
+            },
+            {
+                "id": 3,
+                "title": "校车安全解决方案",
+                "content": "典型场景： 每辆车安装摄像头，电话监听拾音器，对讲手柄，司机报警按钮，学生下车确认按钮，报警提示灯，防火盒，断油电控制继电器等。采用 RFID 技术将学生上下车刷卡信息传送到车载智能终端，车载智能终端将它进行远程与本地同步记录，支持断点续传，上下车刷卡图片抓拍。通过监控中心管理平台，管理者和监管者可以全方位掌握校车运行状况。有效排除各种安全隐患",
+                "src": "digitalfleet/banner-3-4@2x.jpg",
+                "url": ""
+            }
+        ]
+    },
+    "relatedProducts": {
+        "title": "相关产品",
+        "content": []
+    },
+    "succesStories": [
+        {
+            "id": 1,
+            "title": "",
+            "url": "",
+            "src": "",
+            "content": ""
+        }
+    ]
+}

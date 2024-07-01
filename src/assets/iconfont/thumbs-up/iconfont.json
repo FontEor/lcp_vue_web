@@ -1,0 +1,16 @@
+{
+  "id": "4065021",
+  "name": "lcp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8953335",
+      "name": "thumbs-up",
+      "font_class": "thumbs-up",
+      "unicode": "e841",
+      "unicode_decimal": 59457
+    }
+  ]
+}

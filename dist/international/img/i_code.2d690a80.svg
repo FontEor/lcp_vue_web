@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="88px" viewBox="0 0 98 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 12备份@4x</title>
+    <defs>
+        <filter x="-15.6%" y="-17.9%" width="135.1%" height="140.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.235294118   0 0 0 0 0.431372549   0 0 0 0 0.941176471  0 0 0 0.319574956 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.589051573" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.12941177" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="50" height="40" rx="2"></rect>
+        <filter x="-4.0%" y="-5.0%" width="108.0%" height="110.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.29803923 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-7.1%" y="-7.4%" width="114.3%" height="114.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.235294118   0 0 0 0 0.431372549   0 0 0 0 0.941176471  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#3C6EF0" offset="0%"></stop>
+            <stop stop-color="#6E9AFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页设计稿-无顶图" transform="translate(-685.000000, -1869.000000)">
+            <g id="编组-12备份" filter="url(#filter-1)" transform="translate(694.000000, 1878.000000)">
+                <g id="矩形">
+                    <use fill-opacity="0.2" fill="#7DCCFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <rect stroke="url(#linearGradient-2)" stroke-width="0.568216399" stroke-linejoin="square" x="0.284108199" y="0.284108199" width="49.4317836" height="39.4317836" rx="2"></rect>
+                </g>
+                <g id="de-数据开发" filter="url(#filter-5)" transform="translate(21.000000, 13.000000)" fill="url(#linearGradient-6)" fill-rule="nonzero">
+                    <path d="M53.0303039,0.421916006 C54.7272706,0.421916006 56,1.6875429 56,3.37503965 L56,51.0468764 C56,52.7343731 54.7272706,54 53.0303039,54 L2.96969609,54 C1.27272938,54 0,52.7343731 0,51.0468764 L0,2.95312365 C0,1.26562689 1.27272938,0 2.96969609,0 L53.0303039,0 L53.0303039,0.421916006 Z M17.3939508,23.2031309 L5.93939218,34.5937671 L17.3939508,45.9844034 L20.78789,42.6094041 L12.7273112,34.5938075 L20.78789,26.5782109 L17.3939508,23.2031309 L17.3939508,23.2031309 Z M38.6060492,23.2030501 L35.21211,26.5781301 L43.2726888,34.5937267 L35.21211,42.6093234 L38.6060492,45.9843226 L50.0606078,34.5936864 L38.6060492,23.2030501 L38.6060492,23.2030501 Z M27.5757743,23.2031309 L23.7575919,45.1406291 L28.4242547,45.9843803 L32.2424371,24.0468821 L27.5757743,23.2031309 L27.5757743,23.2031309 Z M47.5151375,8.85937094 L8.48486255,8.85937094 L8.48486255,14.3437426 L47.5151375,14.3437426 L47.5151375,8.85937094 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

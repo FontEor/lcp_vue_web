@@ -1,0 +1,82 @@
+{
+    "comment": "注释说明-商品布局json,字段说明：title:标题,content:内容,productAdvantages:产品优势,applicationscenario:应用场景,productArchitecture:产品架构,productFunction:产品功能",
+    "title": "销量预测",
+    "content": "以商家业务数据为基础，京东大数据为驱动，智能算法为引擎，为商家定制其业务智能预测结果。同时对当前销售情况进行统计分析，指导销售及运营计划的制定。实现销售历史可分析，销售现状可视，销售未来可预估。",
+    "productAdvantages": {
+        "title": "产品优势",
+        "content": [
+            {
+                "id": 1,
+                "title": "行业数据支持",
+                "src": "Salesforecast/1-1@2x.png",
+                "content": "依托京东大数据基础，结合外部宏观的行业数据，进行多维度加标输出，进而指导销量预测。"
+            },
+            {
+                "id": 2,
+                "title": "多年算法能力沉淀",
+                "src": "Salesforecast/1-2@2x.png",
+                "content": "供应链管理及算法开发经验方面积累深厚，支持时序，机器学习多种算法模型，实现百余中模型变形和衍化。"
+            },
+            {
+                "id": 3,
+                "title": "灵活可视的操作流程",
+                "src": "Salesforecast/1-3@2x.png",
+                "content": "系统内数据处理及数据分析界面可调可配可视，最大程度上支持商家多维度数据查看和统计需求，操作简单，使用灵活。"
+            },
+            {
+                "id": 4,
+                "title": "支持丰富业务场景",
+                "src": "Salesforecast/1-4@2x.png",
+                "content": "支持经营计划、新品管理、促销管理、产品生命周期等等多种业务场景的销量预测执行。"
+            }
+        ]
+    },
+    "applicationscenario": {
+        "title": "应用场景",
+        "content": [
+            {
+                "id": 0,
+                "title": "经营分析",
+                "content": "基于历史长期数据做趋势预测，结合企业实际情况，为企业制定财务经营计划等提供依据。",
+                "src": "Salesforecast/banner-13-1@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 1,
+                "title": "新品预测",
+                "content": "结合产品生命周期的分析，为商品的新老替换、纯新商品的入市提供指导以及相对精准的销量预测值。",
+                "src": "Salesforecast/banner13-2@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 2,
+                "title": "促销预测",
+                "content": "帮助商家管理录入促销数据，对未来发生促销活动，提前根据预测做出反应，并记录促销事件的达成情况。",
+                "src": "Salesforecast/banner13-3@2x.jpg",
+                "url": "http://www.jd.com"
+            },
+            {
+                "id": 3,
+                "title": "常规预测",
+                "content": "基于商家的业务数据，输出多维度的常规预测数据，指导运营及销售策略。",
+                "src": "Salesforecast/banner13-4@2x.jpg",
+                "url": "http://www.jd.com"
+            }
+        ]
+    },
+    "productArchitecture": {
+        "title": "产品架构",
+        "src": "Salesforecast/framework.png"
+    },
+    "productFunction": {
+        "title": "产品功能",
+        "tip": "",
+        "content": [
+            {
+                "id": 1,
+                "title": "某酒类品牌",
+                "content": "某商家线上渠道销售增长迅速，但由于自身需求预测水平及库存计划能力不足，销售平台商品现货率及供应率大幅波动下降，无法掌握真实客户需求带来严重销售损失。基于京东大数据以及宏观外部数据，更能有效指导销量预测。同时，京东在供应链管理及算法开发经验方面已经积累深厚。"
+            }
+        ]
+    }
+}

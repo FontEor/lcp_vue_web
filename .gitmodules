@@ -1,0 +1,3 @@
+[submodule "application/lcp_vue_web_upgrade"]
+	path = application/lcp_vue_web_upgrade
+	url = git@coding.jd.com:lcp-saas/lcp_vue_web_upgrade.git

@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "JDLANGZHENGTI--GB1";
+  src: url("https://storage.jd.com/srceen/JDLZ.ttf");
+}
+
+@mixin font-family {
+  font-family: "PingFang SC", "Microsoft YaHei", "黑体",
+    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@mixin font-family-jd {
+  font-family: "JDLANGZHENGTI--GB1", "PingFang SC", "Microsoft YaHei", "黑体",
+    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@mixin index-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@mixin transition-color($delay: 0.3s) {
+  transition: background-color $delay, color $delay;
+}
+
+/**
+    linear-primary-button
+    摘自 赵晨阳 的代码 
+    原始位置于 views/extranet/solution/wineWareHouse
+*/
+
+@mixin linear-primary-button($text: "立即入驻") {
+  position: relative;
+  display: block;
+  width: 224px;
+  height: 58px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  background-image: linear-gradient(
+    90deg,
+    rgba(211, 225, 255, 1) 0%,
+    rgba(175, 200, 250, 1) 24.01660839160839%,
+    rgba(92, 151, 249, 1) 47.284746503496514%,
+    rgba(168, 201, 255, 1) 100%
+  );
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 54px;
+    content: $text;
+    background: linear-gradient(
+      90deg,
+      rgba(135, 184, 255, 1) 0%,
+      rgba(60, 110, 240, 1) 100%
+    );
+    border-radius: 8px;
+  }
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 54px;
+    content: $text;
+    background: linear-gradient(
+      90deg,
+      rgba(7, 94, 222, 1) 0%,
+      rgba(0, 56, 202, 1) 100%
+    );
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  &:hover::after {
+    opacity: 1;
+  }
+}
+
+@mixin index-banner-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  height: 460px;
+  background: #ecf0f3 url("~@/assets/img/home2022/banner2.png") center top
+    no-repeat; // background-size: cover;
+  background-size: 1200px 460px;
+  overflow: hidden;
+  &::before {
+    width: 1200px;
+    content: " ";
+    position: absolute;
+    right: 50%;
+    transform: translateX(-600px) rotateY(180deg);
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    background: #ecf0f3 url(/img/banner2.a5906373.png) center top no-repeat;
+    background-size: 1200px 460px; // filter: blur(5px);
+  }
+  &::after {
+    width: 1200px;
+    content: " ";
+    position: absolute;
+    left: 50%;
+    transform: translateX(600px) rotateY(180deg);
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    background: #ecf0f3 url(/img/banner2.a5906373.png) center top no-repeat;
+    background-size: 1200px 460px; // filter: blur(5px);
+  }
+}
+
+@mixin halo {
+  &::before {
+    transition: transform 0.3s, opacity 0.8s;
+    content: " ";
+    box-shadow: 0px 0px 0px #fff;
+    transform: translateY(0px) scaleX(1) scaleY(1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    opacity: 1;
+    z-index: 1;
+  }
+}
+@mixin halo-hover($shadow: #3c6ef0) {
+  &::before {
+    transform: translateY(10px) scaleX(1.2) scaleY(1.38);
+    opacity: 0;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 20px $shadow;
+  }
+}
